@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./img/fav-icon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- Nav -->
+      <div class="nav container">
+        <a href="index.html" class="logo"> Movie <span>flix</span> </a>
+
+        <!-- SEARCH BOX -->
+        <div class="search-box">
+          <input type="search" name="" id="search-input" placeholder="Search"/>
+          <i class="fas fa-search"></i>
+        </div>
+        <!-- User -->
+        <a href="#" class="user">
+          <img src="./img/user.jpg" alt="" class="user-img" />
+        </a>
+        
+        <!-- Nav-Bar -->
+         <div class="navbar">
+            <a href="#home" class="nav-link nav-active">
+                <i class="fas fa-home "></i>
+                <span class="nav-link-title">Home</span>
+            </a>
+            <a href="#trending" class="nav-link">
+                <i class="fa fa-fire" aria-hidden="true"></i>
+                <span class="nav-link-title">Trending</span>
+            </a>
+            <a href="#compass" class="nav-link">
+                <i class="fas fa-compass    "></i>
+                <span class="nav-link-title">Explore</span>
+            </a>
+            <a href="#movies" class="nav-link">
+                <i class="fas fa-tv    "></i>
+                <span class="nav-link-title">Movies</span>
+            <a href="#favourites" class="nav-link">
+                <i class="fas fa-heart    "></i>
+                <span class="nav-link-title">favourites</span>
+            </a>
+         </div>
+      </div>
+    </header>
+    <!-- Play Movie Container -->
+     <div class="play-container container">
+        <!-- Play Image -->
+         <img src="play-page/play-background.jpg" alt="" class="play-img">
+         <!-- Play text -->
+          <div class="play-text">
+            <h2>Jumanji: Welcome to the Jungle</h2>
+            <!-- Ratings -->
+            <div class="rating">
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star-half    "></i>
+            </div>
+            <!-- Tags -->
+             <div class="tags">
+                <span>Action</span>
+                <span>Adventure</span>
+                <span>4K</span>
+             </div>
+             <!-- Trailer Button-->
+             <a href="#" class="watch-btn">
+                <i class="fas fa-play    "></i>
+                <span>Watch the trailer</span>
+            </a>
+          </div>
+          <!-- Play Btn -->
+          <i class="fas fa-play  play-movie  "></i>
+          <!-- Video Container -->
+           <div class="video-container">
+              <!-- Video Box -->
+               <div class="video-box">
+                  <video id="myvideo" src="play-page/Jumanji.mp4" controls></video>
+                  <!-- Close Video Icon -->
+                  <i class="fas fa-times"></i>
+               </div>
+           </div>
+     </div>
+   <!-- About -->
+    <div class="about-movie container">
+      <h2>Jumanji:Welcome to the jungle</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Assumenda molestias minima nemo a, vel sit.
+      </p>
+      <!-- Movie Cast -->
+      <h2 class="cast-heading">Movie Cast</h2>
+      <div class="cast">
+        <div class="cast-box">
+          <img src="play-page/cast1.jpg" alt="" class ="cast-img">
+          <span class="cast-title">Dwayne Johnson</span>
+        </div>
+        <div class="cast-box">
+          <img src="play-page/cast2.jpg" alt="" class ="cast-img">
+          <span class="cast-title">Dwayne Johnson</span>
+        </div>
+        <div class="cast-box">
+          <img src="play-page/cast3.jpg" alt="" class ="cast-img">
+          <span class="cast-title">Dwayne Johnson</span>
+        </div>
+        <div class="cast-box">
+          <img src="play-page/cast4.jpg" alt="" class ="cast-img">
+          <span class="cast-title">Dwayne Johnson</span>
+        </div>
+        <div class="cast-box">
+          <img src="play-page/cast5.jpg" alt="" class ="cast-img">
+          <span class="cast-title">Dwayne Johnson</span>
+        </div>
+        <div class="cast-box">
+          <img src="play-page/cast6.jpg" alt="" class ="cast-img">
+          <span class="cast-title">Dwayne Johnson</span>
+        </div>
+      </div>
+    </div>
+    <!-- Download -->
+           <div class="download">
+            <h2 class="download-title">Download Movie</h2>
+            <div class="download-links">
+              <a href="play-page/Jumanji.mp4" download>480p</a>
+              <a href="play-page/Jumanji.mp4" download>720p</a>
+              <a href="play-page/Jumanji.mp4" download>1080p</a>
+            </div>
+           </div>
+       <!-- Copyright -->
+       <div class="copyright">
+        <p>&#169; All rights reserved</p>
+       </div>
+
+
+       <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+       <script src="./main.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
